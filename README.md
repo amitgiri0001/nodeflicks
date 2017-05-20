@@ -6,13 +6,13 @@
     cd public
     bower install  
   
- # How to run
+  # How to run
     npm start
   
   # How to test
     npm test
     
-  ### Test just client
+  ### Test client
     npm run test-client
-  ### Test just server
+  ### Test server
     npm run test-server
