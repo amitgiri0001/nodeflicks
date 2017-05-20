@@ -1,0 +1,32 @@
+{
+  "name": "nodeflicks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test-server": "mocha --timeout 10000",
+    "test-client": "karma start",
+    "test": "mocha --timeout 10000; karma start"
+  },
+  "author": "amit giri",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "request": "^2.81.0"
+  },
+  "devDependencies": {
+    "angular": "^1.6.4",
+    "angular-mocks": "^1.6.4",
+    "angular-resource": "^1.6.4",
+    "angular-ui-router": "^1.0.3",
+    "chai": "^3.5.0",
+    "chai-http": "^3.0.0",
+    "jasmine-core": "^2.6.2",
+    "karma": "^1.7.0",
+    "karma-chrome-launcher": "^2.1.1",
+    "karma-jasmine": "^1.1.0",
+    "mocha": "^3.4.1"
+  }
+}

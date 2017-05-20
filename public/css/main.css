@@ -1,0 +1,20 @@
+#search-section {
+  padding-top: 50px;
+}
+
+#search-section input {
+  height: 55px;
+  font-size: 25px;
+}
+
+#imageSection img {
+  height: 180px!important;
+  width: 100%;
+  display: block;
+}
+
+#imageSection h6 {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}

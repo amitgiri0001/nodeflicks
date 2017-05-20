@@ -1,0 +1,18 @@
+<section id="imageSection">
+  <div class="row">
+    <!-- <div class="col-xs-6 col-md-3" ng-repeat="image in $ig.images">
+      <a href="#" class="thumbnail">
+        <img src="{{::image.media.m}}" alt="..." />
+      </a>
+    </div> -->
+    <div class="col-xs-12 col-sm-6 col-md-3" ng-repeat="image in $ig.images">
+    <div class="thumbnail">
+      <img src="{{::image.media.m}}" alt="...">
+      <div class="caption">
+        <h6 ng-bind="image.title"></h6>
+        <!-- <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p> -->
+      </div>
+    </div>
+  </div>
+</div>
+</section>
