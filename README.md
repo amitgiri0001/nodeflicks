@@ -9,9 +9,9 @@
     npm start
   
   # How to test
-    # Test whole app
-      npm test
-    # Test just client
-      npm run test-client
-    # Test just server
-      npm run test-server
+  ### Test whole app
+    npm test
+  ### Test just client
+    npm run test-client
+  ### Test just server
+    npm run test-server
