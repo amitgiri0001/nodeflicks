@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test-server": "./node_modules/mocha/bin/mocha --timeout 10000",
-    "test-client": "./node_modules/karma-cli/bin/karma start",
+    "test-server": "mocha --timeout 10000",
+    "test-client": "karma start",
     "test": "mocha --timeout 10000; karma start"
   },
   "author": "amit giri",
