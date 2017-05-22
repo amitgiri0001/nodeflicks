@@ -1,10 +1,19 @@
 #search-section {
-
+  text-align: center;
+  border-bottom: 1px solid #afa7a7;
+  margin-bottom: 10px;
 }
 
 #search-section input {
-  height: 50px;
-  font-size: 25px;
+  width: 80%;
+  height: 40px;
+  font-size: 20px;
+  display: inline-block;
+}
+
+#search-section button {
+  height: 38px;
+  margin-top: -4px;
 }
 
 #imageSection img {
