@@ -3,6 +3,8 @@
  
  # Installation
     npm install
+    npm install karma-cli -g
+    npm install mocha -g
     cd public
     bower install  
   
@@ -11,6 +13,7 @@
   
   # How to test
     npm test
+    (On windows system please run test separately as mentioned below.)
     
   ### Test client
     npm run test-client
